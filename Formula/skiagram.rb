@@ -1,25 +1,25 @@
 class Skiagram < Formula
   desc "CLI + TUI that profiles where your AI coding agent's tokens actually went — locally, offline."
   homepage "https://github.com/TanvirAnjumApurbo/skiagram"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.0/skiagram-aarch64-apple-darwin.tar.xz"
-      sha256 "ff502d5a7fad9d03ad16fa1b32fd1f1f85f181944f3056f32219aa82cbce73d3"
+      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.1/skiagram-aarch64-apple-darwin.tar.xz"
+      sha256 "b1dee738b5234e670ba337712eafc329457221bf8e01c95d58e9d03969c3ae43"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.0/skiagram-x86_64-apple-darwin.tar.xz"
-      sha256 "5f5ddcdfe50b0928ad415e6041e9b7b0f44935ea4d0f9eb284b8ed64a1f2ea1b"
+      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.1/skiagram-x86_64-apple-darwin.tar.xz"
+      sha256 "a4ed2208bcd078ba841def3a4281e05dc0b5fc73ee3d51a23a630f54dc6ac874"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.0/skiagram-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4a2a36e2fbe17bb1fbcad1980aa84d3156f852eab01a5f1d57edb3ded7c8cc96"
+      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.1/skiagram-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "285a765b00d7bfc57b136cbe390ea762a335e9fc5cd5fa952d7d84a12de01b22"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.0/skiagram-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5d15f5cc510d9a1f669f25d565cdddb9c852d0dbf61b2e61d39ff62a18eb84ff"
+      url "https://github.com/TanvirAnjumApurbo/skiagram/releases/download/v0.1.1/skiagram-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "43700047163b656a96a5831fcaa27774e7287c65c5515b34c38482bfc5ec9444"
     end
   end
   license "MIT"
